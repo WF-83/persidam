@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSIDAM Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="asset/PERSIDAM.png" alt="PERSIDAM Logo" class="logo">
+            <h1>SUMBANGAN AWAM</h1>
+        </header>
+        <main>
+            <img src="asset/QR.png" alt="DuitNow QR Code" class="qr-code">
+            <p class="description">
+                Tabung Umum untuk membiayai aktiviti dan projek penyebaran ilmu dan dakwah di bawah kelolaan PERSIDAM.
+            </p>
+            <p class="form-intro">
+                Sila isi maklumat dibawah untuk mendapatkan resit rasmi pengecualian cukai:
+            </p>
+            <form id="donation-form">
+                <input type="text" id="name" name="name" placeholder="Nama" required>
+                <input type="text" id="contact" name="contact" placeholder="No. Telefon / Email" required>
+                <textarea id="address" name="address" placeholder="Alamat" rows="3" required></textarea>
+                <input type="number" id="amount" name="amount" placeholder="Jumlah Sumbangan (RM)" min="1" required>
+                <textarea id="notes" name="notes" placeholder="Nota untuk sebarang pertanyaan atau permintaan" rows="3"></textarea>
+                <button type="submit">HANTAR</button>
+            </form>
+        </main>
+        <footer>
+            <p class="footer-text">
+                **NO. RUJ. PELEPASAN CUKAI LHDN: LHDN.01/35/42/51/179-6.5877.<br>
+                Tarikh Kuatkuasa Kelulusan: 01.07.2006**
+            </p>
+            <p>© 2024 PERSIDAM. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
